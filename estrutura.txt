@@ -1,0 +1,12 @@
+﻿Pastas:
+
+	- Pasta Páginas:
+		- Arquivos .HTML 
+		- Arquivos .PHP
+		- Pasta Estilo (Os arquivos CSS serão separados em um diretório diferente dos arquivos HTML, e serão
+					referenciados nestes):
+			- Arquivos .CSS
+		- Pasta Banco
+					
+	- Pasta Imagens => Pasta destino das imagens que as páginas conterão, de acordo com a necessidade essa pasta
+					será dividida em outros diretórios.

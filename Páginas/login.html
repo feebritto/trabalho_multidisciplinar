@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link type="text/css" rel="stylesheet" media="screen" href="estilos.css"/>
+  </head>
+  
+  <body>
+	<div class="site"><!--div que define a "caixa" geral do site -->
+	
+		<div class="header"><!--div que define o cabeçalho do site -->
+			
+			<div class="logo"></div>
+			
+			<div class="login">
+				<form action="logar.php">
+					<label for="email" id="email_l">Email:</label>
+					<input type="text" name="email_login_tf" id="email_login_tf"/>
+					
+					<label for="senha" id="senha_l">Senha:</label>
+					<input type="text" name="senha_login_tf" id="senha_login_tf"/>
+					s
+					<input type="submit" value="Cadastrar" id="botao_cadastro"/>
+				</form>
+			</div>
+		
+		</div>
+		
+		<div class="conteudo"><!--div que define o conteúdo do site -->
+		
+			<div class="conteudo-left">
+				<div class="teleduc_inicial">  
+						<label for="teleduc_l" id="teleduc_l">Teleduc</label>
+				</div>
+			</div>
+			
+			<div class="conteudo-right">
+				
+				<form action="cadastrar.php">	
+					<div class="cadastro_inicial">
+						<label for="título_cadastro" id="cadastro_l">Cadastre-se Agora! </label>
+						
+						<!-- <label for="nome_completo" id="nome_completo">Nome Completo:</label> -->
+						<input type="text" name="primeiro_nome_tf" id="primeiro_nome_tf" value=" Nome"/>
+						
+						<!-- <label for="email_cadastro" id="email_cadastro">Email:</label> -->
+						<input type="text" name="sobrenome_tf" id="sobrenome_tf" value=" Sobrenome"/>
+						</br></br>
+						
+						<input type="text" name="email_tf" id="email_tf" value=" Email"/>
+						</br></br>
+						
+						<input type="text" name="senha_tf" id="senha_tf" value=" Senha"/>
+						
+						
+						<input type="text" name="confirma_senha_tf" id="confirma_senha_tf" value=" Confirma Senha"/>
+						
+						</br></br>
+						<input type="submit" value="Pronto!" id="botao_pronto"/>
+					</div>
+				</form>
+			</div> 
+			
+		</div><!-- fechar div conteúdo -->
+		<div class="footer">
+	</div><!--div que define o rodapé do site do site -->
+	
+	
+	</div>
+  </body>
+</html>
