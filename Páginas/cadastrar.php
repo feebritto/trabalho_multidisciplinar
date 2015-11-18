@@ -1,18 +1,32 @@
 <?php
-    $email = $_GET['email_login_tf'];
-	$senha = $_GET['senha_login_tf'];
-	$opcao = isset($_GET['opcao']) ? $_GET['opcao'] : ''; 
+    $nome = $_GET['primeiro_nome_tf'];
+	$sobrenome = $_GET['sobrenome_tf'];
+	$email = $_GET['email_tf'];
+	$senha = $_GET['senha_tf'];
+	$confirmasenha = $_GET['confirma_senha_tf'];
 	
-	if(!empty($email) && !empty($senha)){
-		if($opcao == "e"){
-		  $op = 'AND';
-		}else{
-		  $op = 'OR';
-		}
-		//Procurar no banco o email equivalente e a senha
-		$sql = "SELECT * FROM users WHERE email_login_tf = '$email' $op senha_login_tf = '$senha'";
+	include('bd.php');
+	//$dbh = new PDO('pgsql:host=localhost;port=5432;dbname=ifsp', 'postgres', 'postgres');
+	//$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	
+	$sql = "insert into user_aluno(nome_aluno,sobrenome_aluno,email,senha) values ('$nome','$sobrenome','$email','$senha')";
+  
+    //insert
+	
+	session_start();
+	
+	
+	if($confirmasenha != $senha){
+		$_SESSION['msg'] = 'Senha não confirmada';
+		header("location: index.php");
 	}
-
-  //include('bd_cadastro.php');
-  $dbh = new PDO('pgsql:host=localhost;port=5432;dbname=ifsp', 'postgres', 'postgres');
+	//if else (!empty($email) || !empty($senha))
+	//então $_SESSION['msg'] = 'Cadastrado com sucesso!'
+	//caso contrário
+	//$_SESSION['msg'] = 'Erro no Cadastro!'
+	
+	//header("location: curso.html");
+  
+  
+  
 ?>

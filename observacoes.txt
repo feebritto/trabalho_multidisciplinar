@@ -1,0 +1,1 @@
+As funções do protótipo da nova interface que funcionam são: Cadastro de Usuário na tela Index, Login de Usuário na Tela Index, Cadastro Cruso na tela de curso.

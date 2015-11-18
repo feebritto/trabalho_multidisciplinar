@@ -13,7 +13,13 @@
 	height:100px;
 	background-color:#3A5FCD;
 }
-
+.logo{
+	width:120px;
+	height:100px;
+	float:left;
+	margin-top:;
+	margin-left:30px;
+}
 .login{	
 	height:80px;
 	float:right;
@@ -23,14 +29,29 @@
 	margin-right: 10px;
 	border-radius: 10px;
 }
+#email_login_tf{
+	background: white;
+	border:1px;
+	border-radius:5px;
+}
 
-#botao_cadastro {
+#senha_login_tf{
+	background: white;
+	border:1px;
+	border-radius:5px;
+}
+
+#botao_login{
 	font-family:"arial";
-	color:white;
-	background-color:#3A5FCD;
-	border-radius: 10px;
+	color:#3A5FCD;
+	background-color:white;
+	border-radius:5px;
 	border-bottom-color:#27408B;
 	border-bottom-style:ridge;
+	font-weight:bold;
+    border:10px;	 
+    width:80px;
+    height:19px;
 }
 
 #senha {
@@ -67,14 +88,45 @@
 	height:500px;
 	float:left;
 	background-color:;
-	/*border-right:1px solid;*/
-	border-color:gray;
 }
+
+.descricaoTeleduc{
+	float:left;
+	height:220px;
+	width:600px;
+	margin-top:190px;
+	margin-left:47px;
+	background-color:;
+	border-right:;
+	border-color:gray;
+	background-color:;
+}
+
+#teleduc_l{
+	float:right;
+	margin-top:;
+	font-family:;
+	font-size:50px;
+	background-color:;
+		font-family:century gothic;
+}
+
+.resumoTeleduc{
+	float:right;
+	background-color:;
+	margin-right:5px;
+	margin-top:10px;
+	text-align:right;
+	height:;
+	width:80%;
+	font-family:century gothic;
+}
+
 
 .conteudo-right{
 	height:500px;
 	float:right;
-	width:50%;	
+	width:50%;
 }
 
 
@@ -86,6 +138,7 @@
 	background-color:;
 	border-left:1px solid;
 	border-color:gray;
+	background-color:;
 }
 #cadastro_l{
 	width:500px;
@@ -95,6 +148,8 @@
 	margin-left:6px;
 	font-family: century gothic;
 	font-size:35px;
+	background-color:;
+	
 }
 
 #primeiro_nome_tf{
@@ -102,12 +157,16 @@
 	font-size:13px;
 	border-radius:5px;
 	margin-left:6px;
+	border:1px;
+	background-color:#E8E8E8;
 }
 
 #sobrenome_tf{
 	font-family:century gothic;
 	font-size:13px;
 	border-radius:5px;
+	border:1px;
+	background-color:#E8E8E8;
 	
 }
 
@@ -117,6 +176,8 @@
 	width:270px;
 	border-radius:5px;
 	margin-left:6px;
+	border:1px;
+	background-color:#E8E8E8;
 }
 
 #senha_tf{
@@ -124,50 +185,49 @@
 	font-size:13px;
 	border-radius:5px;
 	margin-left:6px;
+	border:1px;
+	background-color:#E8E8E8;
 }
 
 #confirma_senha_tf{
 	font-family:century gothic;
 	font-size:13px;
 	border-radius:5px;
+	border:1px;
+	background-color:#E8E8E8;
 }
 
 
 #botao_pronto{	
 	font-family:century gothic;
 	font-size:13px;
-	border-radius:5px;
+	color:white;
+	border-radius:2px;
 	margin-left:6px;
 	width:270px;
+	border:1px;
+	background-color:#3A5FCD;
 	
 }
 
-.teleduc_inicial{
-	height:300px;
-	width:600px;
-	margin-top:185px;
-	background-color:;
-}
 
-#teleduc_l{
-	float:right;
-	margin-top:;
+.msg{
 	font-family:century gothic;
-	font-size:50px;
-	background-color:;	
+	color:red;
+	margin-left:10px;
+	font-size:13px;
 }
 
+/*Popup Cadstro Curso*/
 
-/*Tela de cadastrar curso*/
-
-.form_cadastrar_curso{
+#form_cadastrar_curso{
 	border-color: black;
 	border-radius: 10px solid;
 	background-color:;
-	width:400px;
-	height:200px;
-	margin-left:500px;
-	margin-top:100px;
+	width:;
+	height:;
+	margin-left:;
+	margin-top:;
 
 }
 

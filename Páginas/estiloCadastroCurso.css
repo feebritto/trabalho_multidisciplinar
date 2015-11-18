@@ -1,0 +1,17 @@
+#form_cadastrar_curso{
+	font-family:century gothic;
+	border-color: black;
+	border-radius: 10px solid;
+}
+#botao_cadastro{
+	font-family:"century gothic";
+	color:#3A5FCD;
+	background-color:white;
+	border-radius:5px;
+	border-bottom-color:#27408B;
+	border-bottom-style:ridge;
+	font-weight:bold;
+    border:10px;	 
+    width:80px;
+    height:19px;
+}

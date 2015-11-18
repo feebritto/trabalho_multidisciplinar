@@ -1,0 +1,131 @@
+.site{
+	width:1300px;
+	height:700px;
+	margin-top:0;
+	margin-right:auto;
+	margin-bottom:0;
+	margin-left:auto;
+	background-color:white;
+}
+.header{
+	width:1300px;
+	height:50px;
+	background-color:#3A5FCD;
+}
+.logo{
+	width:40px;
+	height:40px;
+	float:left;
+	margin-top:5px;
+	margin-left:30px;
+	background-color:;
+}
+.conteudo{
+	width:1300px;
+	height:1000px;
+	background-color:;
+}
+.conteudo-left{
+	width:16%;
+	height:500px;
+	float:left;
+	background-color:;
+	background-color:;
+	/*border-right:1px solid;*/
+	z-index:100;
+}
+#tb_curso{
+	background-color:#E8E8E8;
+	float:left;
+	margin-top:50px;
+	height:300px;
+}
+.conteudo-right{
+	height:500px;
+	float:right;
+	width:84%;
+	background-color:;
+	z-index:100;
+}
+.footer{
+	width:1300px;
+	height:100px;
+	margin-top:500px;
+	background-color:;
+}
+#popup_cadastro{
+     position: fixed;
+     top: 0; bottom: 0;
+     left: 0; right: 0;
+     margin: auto;
+     width: 300px;
+     height: 150px;
+     padding: 20px;
+     border: solid 1px #331;
+     background: #ffffd0;
+     display: none;
+	 font-family:century gothic;
+}
+ul { 
+	background-color:;
+	margin-top:80px;
+	padding:0; 
+	list-style-type: none; 
+	background-color:;
+	width:200px; /* uma largura para o menu */ 
+	border:1px solid #E8E8E8;
+}
+
+ul li a:link {
+	text-decoration: none; 
+	font-family: century gothic;
+	font-size:14px; 
+	color:#3A5FCD; 
+}
+
+ul li {
+	border-bottom:1px solid #E8E8E8;
+}
+
+#box_tituloCurso{
+	color:#E8E8E8;
+	text-align:center;
+	font-size:40px;
+	width:700px;
+	height:60px;
+	margin-top:0px;
+	margin-left:0px;
+	background-color:;
+	border:1px solid #E8E8E8;
+}
+#box_menu{
+	height:30px;
+	width:700px;
+	background:;
+}
+#conteudo_aula_l{
+	border:1px solid #E8E8E8;
+	height:100px;
+}
+#alunos_matriculados{
+	border:1px solid #E8E8E8;
+	height:100px;
+}
+
+#box_comentarios{
+	width:700px;
+	height:100px;
+	border:1px solid #E8E8E8;
+	background-color:;
+	margin-left:px;
+	margin-top:px;
+	font-family:century gothic;
+}
+
+#box_postagens{
+	width:700px;
+	height:500px;
+	border:1px solid #E8E8E8;
+	margin-top:20px;
+
+}
